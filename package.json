@@ -1,0 +1,38 @@
+{
+    "name": "using-multer",
+    "version": "1.0.0",
+    "description": "Multer package utilization",
+    "main": "index.js",
+    "engines": {
+        "npm": "6.14.11",
+        "node": "14.15.4"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Anik7303/using-multer.git"
+    },
+    "keywords": [
+        "Nodejs",
+        "Multer",
+        "Upload"
+    ],
+    "author": "Anik Mohammad",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Anik7303/using-multer/issues"
+    },
+    "homepage": "https://github.com/Anik7303/using-multer#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "multer": "^1.4.2",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
